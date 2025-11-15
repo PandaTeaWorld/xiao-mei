@@ -45,4 +45,5 @@ for (const eventFolder of eventFolders) {
     }
 }
 
-client.login(token);
+
+client.login(process.env.DISCORD_BOT_TOKEN);
