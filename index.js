@@ -1,5 +1,4 @@
 const fs = require('node:fs');
-const path = require('node:path');
 const { Client, Collection, GatewayIntentBits, ActivityType, } = require('discord.js');
 const { token } = require('./config.json');
 const { player } = require("discord-player"); 
@@ -47,3 +46,4 @@ for (const eventFolder of eventFolders) {
 
 
 client.login(process.env.DISCORD_BOT_TOKEN);
+
