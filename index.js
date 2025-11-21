@@ -4,6 +4,7 @@ const { token } = require('./config.json');
 const { player } = require("discord-player"); 
 const { Player } = require('discord-player');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildVoiceStates, ] });
+const path = require('node:path');
 
 
 // commands
